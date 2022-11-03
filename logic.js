@@ -5,7 +5,16 @@ const messageBox = document.querySelector("#inputBox");
 let ws;
 
 function showMessage(message) {
-  messages.textContent += `\n> ${message}`;
+  if (message instanceof Blob) {
+    reader = new FileReader();
+    reader.readAsText(message);
+    reader.onload = () => {
+      messages.textContent += `\n> ${reader.result}`;
+    };
+  } else {
+    messages.textContent += `\n> ${message}`;
+  }
+
   messages.scrollTop = messages.scrollHeight;
   messageBox.value = "";
 }
