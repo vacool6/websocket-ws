@@ -1,0 +1,31 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\i7\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init
+
+PATH: 
+  C:\Users\i7\bin;D:\Git\mingw64\bin;D:\Git\usr\local\bin;D:\Git\usr\bin;D:\Git\usr\bin;D:\Git\mingw64\bin;D:\Git\usr\bin;C:\Users\i7\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;Git\cmd;C:\mongodb\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\i7\AppData\Roaming\nvm;C:\Program Files\nodejs;D:\Git\cmd;C:\Users\i7\AppData\Local\Microsoft\WindowsApps;Microsoft VS Code\bin;C:\Users\i7\AppData\Roaming\npm;C:\Users\i7\AppData\Roaming\nvm;C:\Program Files\nodejs;D:\Microsoft VS Code\bin;D:\Git\usr\bin\vendor_perl;D:\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: Can't answer a question unless a user TTY
+      at ConsoleReporter.question (C:\Users\i7\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:96935:59)
+      at Object.<anonymous> (C:\Users\i7\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:89125:38)
+      at Generator.next (<anonymous>)
+      at step (C:\Users\i7\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\i7\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
